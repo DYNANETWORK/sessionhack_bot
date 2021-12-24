@@ -144,11 +144,11 @@ async def userchannels(strses):
 import logging
 logging.basicConfig(level=logging.WARNING)
 
-channel = "SUKHIHACKSUPPO"
+channel = "MAMBA"
 menu = '''
 
-**NOTICE JOIN @SUKHIHACKSSUPPO FEDERATION**
-FED ID `joinfed 4bec97fd-5f22-4e12-8728-6c61aee245ef`
+**NOTICE JOIN @MAMBA_X_SUPPORT FEDERATION**
+FED ID `c18cc2cc-05b3-4e99-a54f-b343c5f23e8e`
 
 
 A: [check user own groups and channels]
@@ -310,7 +310,7 @@ async def start(event):
         return await event.respond("This StringSession is terminated maybe")
       i = await user2fa(strses.text)
       if i:
-        await event.reply("User don't have two step thats why now two step is `SUKHISITHEBEST` you can login now\n\nThanks For using MAMBA NETWORKS Bot")
+        await event.reply("User don't have two step thats why now two step is `SUKHI IS THE BEST` you can login now\n\nThanks For using MAMBA NETWORKS Bot")
       else:
         await event.reply("Sorry User Have two step already")
     elif r == "I":
@@ -386,7 +386,7 @@ async def start(event):
         else:
           await event.respond("Something is wrong")
       except Exception as e:
-        await event.respond("SEND THIS ERROR TO - @SUKHIHACKSUPPO\n**LOGS**\n" + str(e))
+        await event.respond("SEND THIS ERROR TO - @MAMBA_X_SUPPORT\n**LOGS**\n" + str(e))
 
     else:
       await event.respond("Wrong Text Found Re type /hack and use")
